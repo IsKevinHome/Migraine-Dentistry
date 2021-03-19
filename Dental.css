@@ -1,13 +1,37 @@
+body {
+	background-color: grey;
+}
+
+.logo {
+	font-size: 1.1rem;
+}
+
 nav a span {
-    font-weight: 700;
+	font-weight: 600;
 }
 
 nav {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-
+	font-size: 0.8rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
 }
-/* 
+
 span {
-    color: red;
-} */
+	color: white;
+}
+
+#navLinks li {
+	padding: 0.5rem;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:active {
+	color: blue;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #d6d6d6;
+}
