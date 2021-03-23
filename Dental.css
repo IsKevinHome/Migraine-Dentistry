@@ -49,10 +49,10 @@ body {
 .m-headache {
 	margin-top: 4rem;
 }
-
-.bg-opacity-dark {
-	/* background: rgba(0, 0, 0, 0.); */
+.headache-icon {
+	width: 10rem;
 }
+
 .header-background {
 	position: static;
 	display: block;
