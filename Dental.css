@@ -47,12 +47,15 @@ body {
 	font-size: 1rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
-	color: white;
+	color: #202020;
 	background-color: white;
 }
 
+.icon-color-white {
+	color: white;
+}
 .m-headache {
-	margin-top: 4rem;
+	margin-top: 6rem;
 }
 .headache-icon {
 	width: 10rem;
