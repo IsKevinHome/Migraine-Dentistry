@@ -46,18 +46,20 @@ body {
 	background-color: white;
 }
 
-.headache {
-	display: block;
-	margin: auto;
+.m-headache {
+	margin-top: 4rem;
 }
 
+.bg-opacity-dark {
+	/* background: rgba(0, 0, 0, 0.); */
+}
 .header-background {
 	position: static;
 	display: block;
 	overflow: visible;
 	top: 0;
 	height: auto;
-	min-height: 30rem;
+	min-height: 40rem;
 	padding-bottom: 70px;
 	/* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
 	/* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
@@ -76,7 +78,7 @@ body {
 	overflow: visible;
 	top: 0;
 	height: auto;
-	min-height: 45rem;
+	min-height: 40rem;
 	padding-bottom: 70px;
 	/* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
 	/* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
