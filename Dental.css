@@ -1,161 +1,181 @@
 .logo {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .toothtooth:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 nav a span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 nav {
-    font-size: 0.8rem;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
 }
 
 span {
-    color: white;
+  color: white;
 }
 
 #navLinks li {
-    padding: 0.3rem;
+  padding: 0.3rem;
 }
 
 #mainNavbar .nav-link {
-    color: white;
+  color: white;
 }
 
 #mainNavbar .nav-link:active {
-    color: blue;
+  color: blue;
 }
 
 #mainNavbar .nav-link:hover {
-    color: #d6d6d6;
+  color: #d6d6d6;
+}
+.card {
+  border: none;
+}
+.bg-circle {
+  border-radius: 50%;
+  background: red;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 .btn-sm {
-    font-size: 0.8rem;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
 }
 .blurb-font {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .sticky {
-    position: fixed;
-    width: 100%;
-    top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .padding-headache {
-    padding-top: 7rem;
+  padding-top: 7rem;
 }
 
 .bg-content {
-    background-color: #00b4e9;
-    background-image: linear-gradient(50deg, #00b3e9 0%, #74cfd1 100%);
+  background-color: #00b4e9;
+  background-image: linear-gradient(50deg, #00b3e9 0%, #74cfd1 100%);
+}
+
+.bg-gradient {
+  background-color: #00b4e9;
+  background-image: linear-gradient(50deg, #00b3e9 0%, #74cfd1 100%);
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    /* background-color: #8ec5fc;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  /* background-color: #8ec5fc;
     background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
 }
 
 .offsetNav {
-    margin-bottom: -100px;
+  margin-bottom: -100px;
 }
 
 .text-blue {
-    color: #48cae4;
+  color: #48cae4;
 }
 
 .icon-color-white {
-    color: white;
+  color: white;
 }
 /* .m-headache {
     margin-top: 3rem;
 } */
 .headache-icon {
-    width: 10rem;
+  width: 10rem;
 }
 
 .font-color-blue {
-    color: #5ab2e8;
+  color: #5ab2e8;
 }
 .bg-dark-opacity {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-    /* background: rgba(0, 0, 0, 0.5); */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+  /* background: rgba(0, 0, 0, 0.5); */
 }
 .header-background {
-    position: static;
-    display: block;
-    overflow: visible;
-    top: 0;
-    height: auto;
-    min-height: 40rem;
-    padding-bottom: 70px;
-    /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
-    /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imgs/x-ray1.jpg");
-    flex-direction: column;
-    background-position: center center;
-    background-size: auto, cover;
-    white-space: normal;
-    object-fit: fill;
-    -o-object-fit: fill;
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 40rem;
+  padding-bottom: 70px;
+  /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
+  /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("imgs/x-ray1.jpg");
+  flex-direction: column;
+  background-position: center center;
+  background-size: auto, cover;
+  white-space: normal;
+  object-fit: fill;
+  -o-object-fit: fill;
 }
 
 .img-background {
-    position: static;
-    display: block;
-    overflow: visible;
-    top: 0;
-    height: auto;
-    min-height: 40rem;
-    padding-bottom: 70px;
-    /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
-    /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("imgs/x-ray5.jpg");
-    flex-direction: column;
-    background-position: center center;
-    background-size: auto, cover;
-    white-space: normal;
-    object-fit: fill;
-    -o-object-fit: fill;
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 40rem;
+  padding-bottom: 70px;
+  /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
+  /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("imgs/x-ray5.jpg");
+  flex-direction: column;
+  background-position: center center;
+  background-size: auto, cover;
+  white-space: normal;
+  object-fit: fill;
+  -o-object-fit: fill;
 }
 
 .neg-marg {
-    margin-top: -50px;
-    border: 1px solid black;
-    background-color: white;
+  margin-top: -50px;
+  border: 1px solid black;
+  background-color: white;
 }
 
 .foot-border-mid {
-    border-left: 1px solid #d4d8da;
-    border-right: 1px solid #d4d8da;
+  border-left: 1px solid #d4d8da;
+  border-right: 1px solid #d4d8da;
 }
 
 .over {
-    border-radius: 8px;
-    margin-top: -50px;
+  border-radius: 8px;
+  margin-top: -50px;
 }
 
 @media (max-width: 576px) {
-    .foot-border-mid {
-        border: 0;
-        border-bottom: 1px solid #d4d8da;
-        border-top: 1px solid #d4d8da;
-    }
+  .foot-border-mid {
+    border: 0;
+    border-bottom: 1px solid #d4d8da;
+    border-top: 1px solid #d4d8da;
+  }
 }
