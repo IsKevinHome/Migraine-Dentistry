@@ -70,9 +70,13 @@ html {
   background-image: linear-gradient(50deg, #00b3e9 0%, #74cfd1 100%);
 }
 
-.bg-gradient {
+.bg-content-2 {
   background-color: #00b4e9;
-  background-image: linear-gradient(50deg, #00b3e9 0%, #74cfd1 100%);
+  background-image: linear-gradient(50deg, #2f8df7 0%, #2cb9bf 100%);
+}
+
+.bg-primary-alt {
+  background-color: #4ebfff;
 }
 
 body {
@@ -81,10 +85,14 @@ body {
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
+
   /* background-color: #8ec5fc;
     background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
 }
 
+.w-custom-tooth {
+  width: 6rem;
+}
 .offsetNav {
   margin-bottom: -100px;
 }
@@ -103,9 +111,6 @@ body {
   width: 10rem;
 }
 
-.font-color-blue {
-  color: #5ab2e8;
-}
 .bg-dark-opacity {
   background: linear-gradient(
     rgba(0, 0, 0, 0),
@@ -117,12 +122,18 @@ body {
   /* background: rgba(0, 0, 0, 0.5); */
 }
 .header-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
   position: static;
   display: block;
   overflow: visible;
   top: 0;
   height: auto;
-  min-height: 40rem;
+  min-height: 30rem;
   padding-bottom: 70px;
   /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
   /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
@@ -167,10 +178,10 @@ body {
   border-right: 1px solid #d4d8da;
 }
 
-.over {
+/* .over {
   border-radius: 8px;
   margin-top: -50px;
-}
+} */
 
 @media (max-width: 576px) {
   .foot-border-mid {
