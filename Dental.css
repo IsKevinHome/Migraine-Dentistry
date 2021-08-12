@@ -58,6 +58,10 @@ html {
   padding-top: 7rem;
 }
 
+.padding-headache-solutions {
+  padding-top: 6rem;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -80,9 +84,7 @@ body {
 .icon-color-white {
   color: white;
 }
-/* .m-headache {
-    margin-top: 3rem;
-} */
+
 .headache-icon {
   width: 10rem;
 }
@@ -121,6 +123,44 @@ body {
   white-space: normal;
   object-fit: fill;
   -o-object-fit: fill;
+}
+
+.headache-solutions-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: url("https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1407&q=80");
+  flex-direction: column;
+  background-position: center center;
+}
+.neuromuscular-solutions-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imgs/x-ray3.jpg");
+  flex-direction: column;
+  background-position: center center;
 }
 
 .img-background {
@@ -179,4 +219,8 @@ body {
 
 #nav {
   transition: all 0.75s;
+}
+
+.circular-image {
+  border-radius: 50%;
 }
