@@ -163,6 +163,26 @@ body {
   background-position: center center;
 }
 
+.tmj-tmd-header-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/imgs/dental_tools_5.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
 .img-background {
   position: static;
   display: block;
