@@ -1,3 +1,4 @@
+// SCROLLNAVBAR
 function changeBg() {
   let navbar = document.getElementById("nav");
   let scrollValue = window.scrollY;
@@ -11,3 +12,5 @@ function changeBg() {
 }
 
 window.addEventListener("scroll", changeBg);
+
+// FORM SUBMISSION

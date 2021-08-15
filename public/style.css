@@ -1,0 +1,286 @@
+.logo {
+  font-size: 1.1rem;
+}
+
+.toothtooth:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+#navLinks li {
+  padding: 0.3rem;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:active {
+  color: blue;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #d6d6d6;
+}
+
+.card {
+  border: none;
+}
+.bg-circle {
+  border-radius: 50%;
+  background: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.btn-sm {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+.blurb-font {
+  font-size: 1.2rem;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.padding-headache {
+  padding-top: 7rem;
+}
+
+.padding-headache-solutions {
+  padding-top: 6rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.w-custom-tooth {
+  width: 6rem;
+}
+.offsetNav {
+  margin-bottom: -100px;
+}
+
+.text-blue {
+  color: #48cae4;
+}
+
+.icon-color-white {
+  color: white;
+}
+
+.headache-icon {
+  width: 10rem;
+}
+
+.bg-dark-opacity {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+.header-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/imgs/x-ray1.jpg");
+  flex-direction: column;
+  background-position: center center;
+  background-size: auto, cover;
+  white-space: normal;
+  object-fit: fill;
+}
+
+.headache-solutions-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: url("https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1407&q=80");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.testimonials-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),
+    url("/imgs/dhvani-patel-Mq4dh5LThYY-unsplash.jpg");
+  padding-bottom: 70px;
+  flex-direction: column;
+  background-position: center center;
+}
+
+.contact-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: url("https://images.unsplash.com/photo-1465982046896-5172ca240f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.neuromuscular-solutions-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(130, 197, 255, 0.5)
+    ),
+    url("/imgs/x-ray3.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.tmj-tmd-header-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 30rem;
+  padding-bottom: 70px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/imgs/dental_tools_5.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.img-background {
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 40rem;
+  padding-bottom: 70px;
+  /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
+  /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("imgs/x-ray5.jpg");
+  flex-direction: column;
+  background-position: center center;
+  background-size: auto, cover;
+  white-space: normal;
+  object-fit: fill;
+  -o-object-fit: fill;
+}
+
+.neg-marg {
+  margin-top: -50px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.foot-border-mid {
+  border-left: 1px solid #d4d8da;
+  border-right: 1px solid #d4d8da;
+}
+
+.over {
+  border-radius: 8px;
+  margin-top: -50px;
+}
+
+/* Showcase */
+.showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.showcase-text {
+  padding: 7rem;
+}
+
+.bio-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1465982046896-5172ca240f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80");
+}
+
+#nav {
+  transition: all 0.75s;
+}
+
+.circular-image {
+  border-radius: 50%;
+}
