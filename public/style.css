@@ -180,6 +180,121 @@ body {
   background-position: center center;
 }
 
+.face-neck-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: url("/imgs/head_and_neck.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.damaged-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)),
+    url("/imgs/weird-teeth.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.jaw-joint-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: url("/imgs/teeth_1.jpeg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.ear-symptoms-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: url("/imgs/dog_ears.jpeg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.depression-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: url("/imgs/depression.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
+.migraine-research-background {
+  /* THIS CREATES PARALLAX  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* END PARALLAX */
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 15rem;
+  padding-bottom: 70px;
+  background-image: url("/imgs/research.jpg");
+  flex-direction: column;
+  background-position: center center;
+}
+
 .neuromuscular-solutions-background {
   /* THIS CREATES PARALLAX  */
   background-attachment: fixed;
