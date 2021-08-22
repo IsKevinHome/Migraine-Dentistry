@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
 .logo {
     font-size: 1.1rem;
 }
@@ -55,14 +63,6 @@ html {
     padding-top: 6rem;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-}
-
 .w-custom-tooth {
     width: 6rem;
 }
@@ -83,13 +83,7 @@ body {
 }
 
 .bg-dark-opacity {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0)
-    );
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
     /* background: rgba(0, 0, 0, 0.5); */
 }
 .header-background {
@@ -106,8 +100,7 @@ body {
     height: auto;
     min-height: 30rem;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("/imgs/x-ray1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/imgs/x-ray1.jpg");
     flex-direction: column;
     background-position: center center;
     background-size: auto, cover;
@@ -131,7 +124,7 @@ body {
     padding-bottom: 70px;
     background-image: url("https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1407&q=80");
     flex-direction: column;
-    background-position: center center;
+    background-position: center -150px;
 }
 
 .testimonials-background {
@@ -147,11 +140,10 @@ body {
     top: 0;
     height: auto;
     min-height: 30rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)),
-        url("/imgs/pexels-belle-co-847393.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("/imgs/pexels-belle-co-847393.jpg");
     padding-bottom: 70px;
     flex-direction: column;
-    background-position: center center;
+    background-position: center -150px;
 }
 
 .contact-background {
@@ -224,8 +216,7 @@ body {
     height: auto;
     min-height: 15rem;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)),
-        url("/imgs/weird-teeth.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("/imgs/weird-teeth.jpg");
     flex-direction: column;
     background-position: center center;
 }
@@ -303,7 +294,7 @@ body {
     padding-bottom: 70px;
     background-image: url("/imgs/research.jpg");
     flex-direction: column;
-    background-position: center center;
+    background-position: center -200px;
 }
 
 .neuromuscular-solutions-background {
@@ -320,11 +311,7 @@ body {
     height: auto;
     min-height: 30rem;
     padding-bottom: 70px;
-    background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(130, 197, 255, 0.5)
-        ),
-        url("/imgs/x-ray3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(130, 197, 255, 0.5)), url("/imgs/x-ray3.jpg");
     flex-direction: column;
     background-position: center center;
 }
@@ -343,10 +330,9 @@ body {
     height: auto;
     min-height: 30rem;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-        url("/imgs/dental_tools_5.jpg");
+    background-image: url("/imgs/dental_tools_5.jpg");
     flex-direction: column;
-    background-position: center center;
+    background-position: center -200px;
 }
 
 .img-background {
@@ -359,8 +345,7 @@ body {
     padding-bottom: 70px;
     /* background-image: -webkit-gradient, linear, left top, left bottom, from(rgba(50, 58, 59, 0.9); */
     /* background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74), url('imgs/toothbrushes.jpg')); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("imgs/x-ray5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("imgs/x-ray5.jpg");
     flex-direction: column;
     background-position: center center;
     background-size: auto, cover;
