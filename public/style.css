@@ -122,9 +122,9 @@ html {
     height: auto;
     min-height: 30rem;
     padding-bottom: 70px;
-    background-image: url("https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1407&q=80");
+    background-image: url("/imgs/toothbrush_sky.jpeg");
     flex-direction: column;
-    background-position: center -150px;
+    background-position: center -50px;
 }
 
 .testimonials-background {
@@ -143,7 +143,7 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("/imgs/pexels-belle-co-847393.jpg");
     padding-bottom: 70px;
     flex-direction: column;
-    background-position: center -150px;
+    background-position: center center;
 }
 
 .contact-background {
@@ -281,7 +281,6 @@ html {
 .migraine-research-background {
     /* THIS CREATES PARALLAX  */
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* END PARALLAX */
@@ -294,7 +293,7 @@ html {
     padding-bottom: 70px;
     background-image: url("/imgs/research.jpg");
     flex-direction: column;
-    background-position: center -200px;
+    background-position: center center;
 }
 
 .neuromuscular-solutions-background {
@@ -316,6 +315,44 @@ html {
     background-position: center center;
 }
 
+.limited-mouth-opening {
+    /* THIS CREATES PARALLAX  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* END PARALLAX */
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 30rem;
+    padding-bottom: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(130, 197, 255, 0.25)), url("/imgs/dental_tools_4.jpg");
+    flex-direction: column;
+    background-position: center center;
+}
+
+.jaw-pain-background {
+    /* THIS CREATES PARALLAX  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* END PARALLAX */
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 30rem;
+    padding-bottom: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(130, 197, 255, 0.25)), url("/imgs/pile_of_teeth.jpeg");
+    flex-direction: column;
+    background-position: center center;
+}
+
 .tmj-tmd-header-background {
     /* THIS CREATES PARALLAX  */
     background-attachment: fixed;
@@ -330,9 +367,9 @@ html {
     height: auto;
     min-height: 30rem;
     padding-bottom: 70px;
-    background-image: url("/imgs/dental_tools_5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(130, 197, 255, 0.5)), url("/imgs/dental_tools_5.jpg");
     flex-direction: column;
-    background-position: center -200px;
+    background-position: center center;
 }
 
 .img-background {
@@ -377,7 +414,7 @@ html {
 }
 
 .showcase-text {
-    padding: 7rem;
+    padding: 3rem;
 }
 
 .bio-background {
@@ -386,6 +423,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("https://images.unsplash.com/photo-1465982046896-5172ca240f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80");
+}
+
+.showcase-box-shadow {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 #nav {
