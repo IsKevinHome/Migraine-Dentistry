@@ -128,7 +128,7 @@ html {
 }
 
 .bio-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
         url("https://images.unsplash.com/photo-1465982046896-5172ca240f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80");
 }
 
@@ -341,7 +341,7 @@ html {
     height: auto;
     min-height: 15rem;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)), url("../imgs/abstract_2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("../imgs/abstract_2.jpg");
     flex-direction: column;
     background-position: center center;
 }
