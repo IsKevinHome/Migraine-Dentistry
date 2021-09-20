@@ -87,6 +87,11 @@ html {
     padding-top: 7rem;
 }
 
+.fp-links {
+    color: #4ebfff;
+    text-decoration: none;
+}
+
 .header-background {
     position: static;
     display: block;
@@ -118,7 +123,6 @@ html {
         height: auto;
         min-height: 30rem;
         padding-bottom: 70px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../imgs/x-ray1.jpg");
         flex-direction: column;
         background-position: center center;
         background-size: auto, cover;
@@ -149,7 +153,7 @@ html {
     height: auto;
     min-height: 30rem;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../imgs/toothbrush_sky.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../imgs/toothbrush_sky.jpeg");
     flex-direction: column;
     background-position: -40rem 0rem;
 }
@@ -170,6 +174,7 @@ html {
         min-height: 30rem;
         padding-bottom: 70px;
         flex-direction: column;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../imgs/toothbrush_sky.jpeg");
     }
 }
 
